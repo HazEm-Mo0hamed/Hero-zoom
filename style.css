@@ -104,8 +104,8 @@ body{
 
 .animation{
    animation: animation 4s infinite;
-   padding-top: 150px;
-   width: 450px;
+   padding-top: 120px;
+   width: 500px;
    height: 500px;
    margin: auto;
 }
@@ -116,7 +116,7 @@ body{
 
    }
    50%{
-      padding-top: 150px;
+      padding-top: 120px;
    }
 
    100%{
