@@ -101,11 +101,30 @@ body{
     height: 350px;
 }
 
-.img-land:hover{
-    transform: translateY(-22px) ;
-    
-    transition:all  0.2s ease-in-out;
+
+.animation{
+   animation: animation 4s infinite;
+   padding-top: 150px;
+   width: 450px;
+   height: 500px;
+   margin: auto;
 }
+
+@keyframes animation{
+   0%{
+      padding-top: 0px;
+
+   }
+   50%{
+      padding-top: 150px;
+   }
+
+   100%{
+      padding-top: 0px;
+   }
+}
+
+
 
 
 
